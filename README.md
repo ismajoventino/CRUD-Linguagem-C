@@ -1,15 +1,16 @@
-# Sistema de Cadastro de Produtos
+# Product Registration System
 
-## Descrição
-Este projeto é um sistema de cadastro de produtos desenvolvido em C, com funcionalidades de gerenciamento de estoque, incluindo a capacidade de cadastrar, consultar, alterar e deletar produtos. Os produtos são armazenados em um arquivo de texto e podem ser carregados e salvos entre as execuções do programa. O sistema também permite a consulta de produtos por categoria.
+## Description
+This project is a product registration system developed in C, with inventory management features, including the ability to register, consult, modify, and delete products. The products are stored in a text file and can be loaded and saved between program executions. The system also allows product consultation by category.
 
-## Funcionalidades
-- **Cadastrar Produto**: Adiciona um novo produto ao estoque com as informações detalhadas (ID, nome, preço, quantidade, validade, categoria e fornecedor).
-- **Consultar Produtos**: Permite consultar todos os produtos cadastrados ou filtrá-los por categoria.
-- **Alterar Produto**: Modifica as informações de um produto existente.
-- **Deletar Produto**: Remove um produto do estoque com base no seu ID.
-- **Salvar e Carregar Dados**: Os dados dos produtos são salvos em um arquivo e podem ser carregados novamente quando o sistema é reiniciado.
+## Features
+- **Register Product**: Adds a new product to the inventory with detailed information (ID, name, price, quantity, expiration date, category, and supplier).
+- **Consult Products**: Allows querying all registered products or filtering them by category.
+- **Modify Product**: Modifies the information of an existing product.
+- **Delete Product**: Removes a product from the inventory based on its ID.
+- **Save and Load Data**: Product data is saved to a file and can be reloaded when the system is restarted.
 
-## Tecnologias Utilizadas
-- **C**: Linguagem de programação utilizada para o desenvolvimento.
-- **Arquivos de Texto**: Para persistência dos dados dos produtos.
+## Technologies Used
+- **C**: Programming language used for development.
+- **Text Files**: For data persistence of products.
+
